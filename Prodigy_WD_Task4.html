@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pranav M Pradeep Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  margin: 0;
+  overflow: hidden; /* Prevents scrolling of the body */
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://cdn2.vectorstock.com/i/1000x1000/11/16/colorful-abstract-crystal-background-vector-2101116.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+
+/* Custom CSS for sidebar */
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(49, 74, 161);
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Align items vertically */
+  padding-top: 20px; /* Add padding to top */
+}
+
+.sidebar img {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Ensure the image is a square */
+  border-radius: 55%; /* Make the image round */
+  margin-bottom: 20px; /* Add space below the image */
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  text-align: center;
+  background-color:  rgb(49, 74, 161);
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+.sidebar a.selected {
+  color: darkgray;
+}
+
+.main-content {
+  margin-left: 20%;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.w3-sand {
+  background-color: rgb(199,220,255) !important; /* Change to your desired color */
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <img src="pranav better img.jpg" alt="Profile Picture"> <!-- Replace "your-picture-url.jpg" with the actual URL of your picture -->
+  <div class="sidebar-content">
+    <a href="#" class="w3-button w3-block" onclick="scrollToTop()">HOME</a>
+    <a href="#about" class="w3-button w3-block">ABOUT</a>
+    <a href="#education" class="w3-button w3-block">EDUCATION</a>
+    <a href="#skills" class="w3-button w3-block">SKILLS</a>
+    <a href="#contact" class="w3-button w3-block">CONTACT</a>
+    <a href="#language" class="w3-button w3-block">LANGUAGE</a>
+  </div>
+</div>
+
+<div class="main-content">
+<header class="bgimg w3-display-container" id="home">
+    <div class="w3-display-middle w3-center">
+      <br><br>
+      <b><span class="w3-text-white" style="font-size:70px; opacity: 0.8; text-shadow: 2px 2px 4px rgb(255, 0, 0)">PRANAV M PRADEEP</b></span>
+    </div>
+</header>
+  
+<div class="w3-sand w3-large">
+    <div class="w3-container" id="about">
+        <div class="w3-content" style="max-width:700px">
+          <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+      
+          <center>
+            <p><b>I'm Pranav M Pradeep</b></p>
+          </center>
+          <p>A passionate BCA student hailing from Christ University. This digital space is a canvas where my academic endeavors, creative pursuits, and personal growth converge.</p>
+      
+          <h6><b>My Journey</b></h6>
+          <p>Through my journey, I've discovered my love for computer science, which fuels my determination to excel in BCA. As you navigate through this portfolio, you'll witness the fusion of my academic achievements, projects, and reflections that have shaped my path.</p>
+      
+          <h6><b>Join Me</b></h6>
+          <p>Join me as we explore the realms of knowledge and innovation, and discover how my dedication to building a bright future is driving me toward a future of endless possibilities.</p>
+      
+          <h6><b>Looking Forward</b></h6>
+          <p>Looking forward to our journey together.</p>
+        </div>
+    </div>
+</div>
+
+<div class="w3-container" id="education">
+    <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">EDUCATION</span></h5>
+      
+        <h6><b>Christ School</b></h6>
+        <p>LKG – 10th: From Lower Kindergarten to STD 10th was done at Christ School and passed out with 82% in 10th Final exam.</p>
+      
+        <h6><b>Christ Junior College</b></h6>
+        <p>11th – 12th: 1st and 2nd Pre-University Courses were completed in Christ Junior College in PCME (Physics, Chemistry, Maths, Electronics) with 70% in the final exam.</p>
+      
+        <h6><b>Christ University, Bengaluru</b></h6>
+        <p>BCA (Bachelors in Computer Applications): I’m currently in the second semester of the 1st year of the BCA at Christ University.</p>
+    </div>
+</div>
+    
+<div class="w3-container" id="skills">
+    <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SKILLS</span></h5>
+        <ul>
+          <li>Data entry (Excel)</li>
+          <li>Video editing</li>
+          <li>Audio editing</li>
+          <li>Team leading capabilities (was the secretary of ACC at Christ Junior College for the year 2022-23)</li>
+          <li>Web development (front end)</li>
+        </ul>
+    </div>
+</div>
+
+<div class="w3-container" id="contact">
+    <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT</span></h5>
+        <p>Address: #54, 4th floor, Krishnamurthy layout, Taverekere Main road, Blr-29</p>
+        <p>Phone: 7349489656</p>
+        <p>Email: pranavmpradeep@gmail.com</p>
+    </div>
+</div>
+
+<div class="w3-container" id="language">
+    <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">LANGUAGE</span></h5>
+        <ul>
+          <li>English</li>
+          <li>Kannada</li>
+          <li>Hindi</li>
+          <li>Tamil</li>
+          <li>Malayalam</li>
+        </ul>
+    </div>
+</div>
+
+<section class="w3-black w3-padding-large w3-center">
+  <div class="w3-content" style="max-width:700px">
+      <h2 class="w3-wide w3-text-white">Resume</h2>
+      <a href="E:\turbo c++\vs\vs coding\cringe cars\Pranav resume.pdf" download="Pranav_M_Pradeep_Resume.pdf" class="w3-button w3-white w3-padding-large w3-large w3-margin-top">Download Resume</a>
+  </div>
+</section>
+
+<footer class="w3-center w3-black w3-padding-48 w3-large">
+    <div class="w3-container" style="padding-bottom:32px;">
+        <div class="w3-content" style="max-width:700px">
+          <p>&copy; 2024 Pranav M Pradeep. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</div>
+
+<script>
+function scrollToTop() {
+  var element = document.getElementById("home");
+  element.scrollIntoView({ behavior: "smooth" });
+}
+</script>
+
+</body>
+</html>
